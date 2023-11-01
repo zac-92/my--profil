@@ -1,0 +1,221 @@
+/*color and fonts*/
+
+body {
+
+                background-color:#A7F4FC;
+
+                color: #785F8D;
+
+                font-family: 'Lora', serif;
+
+                front-size: 16px;
+
+                front-weight: lighter ;
+
+ 
+
+}
+
+h1, h2, h3 {
+
+                font-family: 'Roboto', sans-serif;
+
+}            
+
+ 
+
+h1 {
+
+                color: #785F8D;
+
+                front-size: 32 px;
+
+                front-weight:900;
+
+ 
+
+                }
+
+ 
+
+                h2 {
+
+                color: #8EAE97;
+
+                front-size:24 px;
+
+                front-weight: lighter;
+
+                front-weight:300;
+
+                }
+
+a {
+
+               
+
+                font-family: 'Roboto', sans-serif;
+
+                text-decoration: none;
+
+                color: #3A75E8;
+
+                front-weight:600;
+
+                front-size: 15px;
+
+ 
+
+}
+
+a:hover {
+
+                color: black;
+
+}
+
+ 
+
+div {
+
+                background: black;
+
+                border: 2px solid white ;
+
+                margin: 20px;
+
+ 
+
+}
+
+ 
+
+/* Custom design with class */
+
+ 
+
+.container {
+
+                width: 700px;
+
+                margin: 40px auto;
+
+                margin:20px 0px;
+
+}
+
+@media (max-width:760px) {
+
+                .container {
+
+                               width: 600px;
+
+                }
+
+ 
+
+}
+
+@media (max-width:500px) {
+
+                .container {
+
+                               width: 400px;
+
+                }
+
+ 
+
+}
+
+ 
+
+.card-white  {
+
+                background-color: red;
+
+                padding: 40px;
+
+                box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+
+                border-radius: 4px;
+
+                margin:20px 0px;
+
+                text-align: center;
+
+}
+
+ 
+
+.img-circle {
+
+                border-radius: 50%;
+
+               
+
+               
+
+ 
+
+}
+
+.btn-blue {
+
+                background-color: #6B72F5;
+
+                color: yellow;
+
+                padding: 15px 20px;
+
+                border-radius: 4px;
+
+ 
+
+}
+
+ 
+
+.list-inline. {
+
+                list-style: none;
+
+                padding-left: 0px;
+
+}
+
+ 
+
+.list-inline li {
+
+                display: inline;
+
+                padding: 10px;
+
+}
+
+.list-inline i {
+
+                front-size:50px;
+
+                color: rgb(230, 230, 230);
+
+}
+
+ 
+
+.list-inline i:hover {
+
+                color: black;
+
+}
+
+ 
+
+/*Design adjustments using id (1% design remaining) */
+
+#introduction p {
+
+                margin-bottom: 40px;
+
+}
